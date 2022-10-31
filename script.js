@@ -1,6 +1,6 @@
 let mode = "encrypt"
 
-let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz".split('')
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz".split('')
 
 const encrypt = (text, key) => {
 
