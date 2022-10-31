@@ -28,7 +28,7 @@ const decrypt = (text, key) => {
 
         if(letters.includes(textArray[i])){
 
-            newPosition = (letters.indexOf(textArray[i]) - key)
+            newPosition = (letters.indexOf(textArray[i]) - key) % letters.length
 
             if(newPosition < 0){
                 newPosition += letters.length
